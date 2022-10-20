@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf8">
+    <style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+ form{
+ padding: 8px;
+ }
+
+h2{
+text-align: center;
+font-family: cursive;
+}
+
+th {
+    background-color: #be92e7;
+}
+
+tr:hover {background-color: #49F9AD;}
+img {
+  display: inline-block;
+}
+
+button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+    background-color: white;
+  color: black;
+  border: 2px solid #4CAF50;
+}
+
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+div{
+padding: 5px;
+}
+
+    </style>
+</head>
+<body>
+<h2>NEW TEST PAGE</h2>
+<div>
+    <form action="/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" value="John"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" value="Doe"><br><br>
+        <input type="submit" value="Submit">
+        <input type="reset">
+    </form>
+</div>
+<div>
+    <form action="/action_page.php">
+        <label for="lessons">Choose a lesson:</label>
+        <select name="lessons" id="lessons">
+            <optgroup label="First part">
+                <option value="lesson1_1">Lesson 1.1</option>
+                <option value="lesson1_2">Lesson 1.2</option>
+            </optgroup>
+            <optgroup label="Second part">
+                <option value="lesson2_1">Lesson 2.1</option>
+                <option value="lesson2_2">Lesson 2.2</option>
+            </optgroup>
+        </select>
+        <br><br>
+        <button type="button">Click Me to Submit Lesson NOW!</button>
+        <!--    <input type="submit" value="Save and Continue">-->
+    </form>
+</div>
+<div>
+    <a href="https://teachmeskills.by" class="t228__imgwrapper" style="color:#ffffff;"><img
+            class="t228__imglogo t228__imglogomobile"
+            src="https://static.tildacdn.com/tild3837-3063-4633-b761-353431323436/3.svg" imgfield="img"
+            style="max-width: 100px; width: 50px; min-width: 50px; height: auto; display: block;" alt="Company"></a>
+    <p>This is list of all lessons.</p>
+</div>
+<div>
+    <table>
+        <tr>
+            <th>Topic</th>
+            <th>Lesson number</th>
+            <th>Link</th>
+        </tr>
+        <tr>
+            <td>Введение в Java</td>
+            <td>Lesson 1.1</td>
+            <td><a href="https://teachmeskills.by/kursy-programmirovaniya/qa-avtomatizirovannoe-testirovanie-minsk">Visit
+                TMS!</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Операторы управления</td>
+            <td>Lesson 1.2</td>
+            <td><a href="https://teachmeskills.by/kursy-programmirovaniya/qa-avtomatizirovannoe-testirovanie-minsk">Visit
+                TMS!</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Введение в тестирование ПО</td>
+            <td>Lesson 2.1</td>
+            <td><a href="https://teachmeskills.by/kursy-programmirovaniya/qa-avtomatizirovannoe-testirovanie-minsk">Visit
+                TMS!</a>
+            </td>
+        </tr>
+        <tr>
+            <td>Основы тестирования ПО</td>
+            <td>Lesson 2.2</td>
+            <td><a href="https://teachmeskills.by/kursy-programmirovaniya/qa-avtomatizirovannoe-testirovanie-minsk">Visit
+                TMS!</a>
+            </td>
+        </tr>
+    </table>
+</div>
+</body>
+</html>
